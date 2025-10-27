@@ -1,5 +1,5 @@
 {% set name = "pydantic-pint" %}
-{% set version = "0.2" %}
+{% set version = "0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pydantic_pint-{{ version }}.tar.gz
-  sha256: ff79983d0b04c63ca3cb2bbd0568e9c016314ef4f669c339cbafeb8f9aa4a911
+  sha256: 9ec5240768aaccbd52179629911fb06c52384ae9aebe5a24b3a84e3516d6aedc
 
 build:
   noarch: python
