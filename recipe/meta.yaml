@@ -1,13 +1,13 @@
 {% set name = "pydantic-pint" %}
-{% set version = "0.4" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pydantic_pint-{{ version }}.tar.gz
-  sha256: 0b58fc1ac0c57074a390ce9d124157db854fcf10392e2e49c9bede388050bbb7
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/pydantic_pint-{{ version }}.tar.gz
+  sha256: b12b1fa79856a9cd90a7a62a9c8d2df427c4c2f341601dcc170c5b4dac8ecda0
 
 build:
   noarch: python
